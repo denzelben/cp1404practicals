@@ -30,6 +30,6 @@ def get_data():
 
 def print_data(datas):
     for data in datas:
-        print(f"{data[0]} is taught by {data[1]:13} and has {data[2]:3} students")
+        print(f"{data[0]} is taught by {data[1]:12} and has {data[2]:3} students")
 
 main()
