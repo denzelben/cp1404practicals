@@ -1,3 +1,4 @@
+#word_occurences.py
 word_to_be_count = {}
 text = input("Text: ")
 words = text.split()
