@@ -31,7 +31,7 @@ def display_result(champion_to_count, countries):
 def get_records(filename):
     records = []
     with open(filename, "r", encoding="utf-8-sig") as in_file:
-        in_file.readline()  # Remove header
+        in_file.readline()
         for line in in_file:
             parts = line.strip().split(",")
             records.append(parts)
